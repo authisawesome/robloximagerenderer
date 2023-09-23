@@ -23,6 +23,9 @@ IF YOU RUN INTO 'dump.json is too large to upload':
   Open "config.json"
   Reduce 'image-resolution' to a smaller number.
   dump.json MUST be less than 512KB to upload to pastebin.
+  OR ... You are being rate limited by the pastebin API.
+  You can only upload 20 files per 24 hours per api-key. 
+  Either switch to a new api-key, or upgrade your Pastebin account.
 
 NOTE: 
   The ModuleScript to load your images into a game is here:
